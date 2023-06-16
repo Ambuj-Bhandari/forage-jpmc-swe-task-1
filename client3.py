@@ -44,6 +44,8 @@ def getRatio(price_a, price_b):
     """ ------------- Update this function ------------- """
     if price_b==0:
         return 1
+    if price_a==0:
+        return 0
     return price_a/price_b
 
 
